@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #18191F;
+    font-family:"Inter", sans-serif;
+}
+.hero-main{
+    background-image:url("images/background-hero.svg");
+    background-size: cover;
+    background-position: center;
+}
+.hero-main-header{
+    display: flex;
+    padding: 16px 165px;
+    justify-content: space-between;
+}
+.main-elements{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.hero-main-header-left{
+    display: flex;
+    
+}
+.hero-main-header-left > ul > li{
+    list-style-type: none;
+}
+.hero-main-header-left > ul {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.hero-main-header-left-links{
+    text-decoration: none;
+    color:inherit;
+}
+
+.hero-main-header-right{
+    display: flex;
+    gap: 12px;
+}
+.slogan{
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+.sloganbutton{
+    display: block;
+    padding: 12px 32px; 
+    background-color: #8C30F5;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500; 
+    border-radius: 6px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+.phoneimg{
+    margin-top: 96px;
+    box-shadow:3, black ;
+}
+.slogan-text{
+    margin-top: 168px;
+}
+.logo-clouds-section{
+    height: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-container{
+    display: flex;
+    gap: 32px;
+    margin: 0, auto;
+}
+
+.features-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 540px;
+    gap: 8px;
+}
+
+.features-heading{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+}
+.features-text{
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.feature-cards{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 350px;
+    gap: 8px;
+}
